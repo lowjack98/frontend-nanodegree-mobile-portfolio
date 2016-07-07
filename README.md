@@ -18,6 +18,7 @@ copy and pasted hosted url into `https://developers.google.com/speed/pagespeed/i
 4. Inlined `style.css`
 5. Added async to all external javascript files.
 6. Minified css and js files.
+7. used `https://tinyjpg.com/` to compress pizzeria.jpg
 
 ### Optimization made on `views/js/main.js` for `pizza.html`
 
@@ -35,3 +36,4 @@ copy and pasted hosted url into `https://developers.google.com/speed/pagespeed/i
   2. Changed querySelector to getElementById
   3. Saved array of movingPizzas in window.movingPizzas right after they are all created.
 6. Added requestAnimationFrame to throttle scroll event listener per a recommendation from the discussion forum.
+7. 7. used `https://tinyjpg.com/` to compress pizza.png
