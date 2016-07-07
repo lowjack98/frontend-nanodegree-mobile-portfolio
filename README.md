@@ -32,8 +32,11 @@ copy and pasted hosted url into `https://developers.google.com/speed/pagespeed/i
   1. Moved position calcs outside of loop. there are only 5 possible values, so i put them in an array and just loop through the array as needed for the calculation inside the for loop.
   2. Changed all pizza array references to movingPizzas
 5. Modified DOMContentLoaded event listener:
-  1. Dropped number of movers from 200 to 60
+  1. Dropped number of movers from 200 to 48
   2. Changed querySelector to getElementById
   3. Saved array of movingPizzas in window.movingPizzas right after they are all created.
+  4. Moved var elem declaration outside of loop.
+  5. Used `https://tinyjpg.com/` to compress pizza.png
 6. Added requestAnimationFrame to throttle scroll event listener per a recommendation from the discussion forum.
-7. 7. used `https://tinyjpg.com/` to compress pizza.png
+7. Moved variable declaration for pizzasDiv outside loop on line 475.
+8. Modified function changeSliderLabel. Changed querySelector to getElementByClassName.

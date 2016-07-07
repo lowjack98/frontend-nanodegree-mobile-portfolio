@@ -402,16 +402,17 @@ var pizzaElementGenerator = function(i) {
 var resizePizzas = function(size) {
   window.performance.mark("mark_start_resize");   // User Timing API function
   // Changes the value for the size of the pizza above the slider
+  // JL: changed querySelector to getElementByClassName
   function changeSliderLabel(size) {
     switch(size) {
       case "1":
-        document.querySelector("#pizzaSize").innerHTML = "Small";
+        document.getElementByClassName("pizzaSize").innerHTML = "Small";
         return;
       case "2":
-        document.querySelector("#pizzaSize").innerHTML = "Medium";
+        document.getElementByClassName("pizzaSize").innerHTML = "Medium";
         return;
       case "3":
-        document.querySelector("#pizzaSize").innerHTML = "Large";
+        document.getElementByClassName("pizzaSize").innerHTML = "Large";
         return;
       default:
         console.log("bug in changeSliderLabel");
@@ -470,8 +471,9 @@ var resizePizzas = function(size) {
 window.performance.mark("mark_start_generating"); // collect timing data
 
 // This for-loop actually creates and appends all of the pizzas when the page loads
+// JL: moved var pizzasDiv outside loop
+var pizzasDiv = document.getElementById("randomPizzas");
 for (var i = 2; i < 100; i++) {
-  var pizzasDiv = document.getElementById("randomPizzas");
   pizzasDiv.appendChild(pizzaElementGenerator(i));
 }
 // JL: saved pizzasContainers into window object for future reference.
@@ -553,12 +555,14 @@ document.addEventListener('DOMContentLoaded', function() {
 
   // can i only update the few pizzas on the current voew and not all of them?
   // JL: dropped pizzas from 200 to 60
+  // JL: moved variable declaration outside loop
+  // JL: compressed "images/pizza.png"
+  var elem = document.createElement('img');
+  elem.className = 'mover';
+  elem.src = "images/pizza.png";
+  elem.style.height = "100px";
+  elem.style.width = "73.333px";
   for (var i = 0; i < 60; i++) {
-    var elem = document.createElement('img');
-    elem.className = 'mover';
-    elem.src = "images/pizza.png";
-    elem.style.height = "100px";
-    elem.style.width = "73.333px";
     elem.basicLeft = (i % cols) * s;
     elem.style.top = (Math.floor(i / cols) * s) + 'px';
     // JL: changed querySelector to getElementById
