@@ -423,6 +423,7 @@ var resizePizzas = function(size) {
    // Returns the size difference to change a pizza element from one size to another. Called by changePizzaSlices(size).
   function determineDx (elem, size) {
     var oldWidth = elem.offsetWidth;
+    // JL: changed querySelector to getElementById
     var windowWidth = document.getElementById("randomPizzas").offsetWidth;
     var oldSize = oldWidth / windowWidth;
 
@@ -448,6 +449,8 @@ var resizePizzas = function(size) {
 
   // Iterates through pizza elements on the page and changes their widths
   function changePizzaSizes(size) {
+    // JL: changed all pizza array references to window.pizzasContainers.
+    // JL: moved dx and newwidth calcs outside for loop.
     var dx = determineDx(window.pizzasContainers[0], size);
     var newwidth = (window.pizzasContainers[0].offsetWidth + dx) + 'px';
     for (var i = 0; i < window.pizzasContainers.length; i++) {
@@ -471,6 +474,7 @@ for (var i = 2; i < 100; i++) {
   var pizzasDiv = document.getElementById("randomPizzas");
   pizzasDiv.appendChild(pizzaElementGenerator(i));
 }
+// JL: saved pizzasContainers into window object for future reference.
 window.pizzasContainers = document.getElementsByClassName("randomPizzaContainer");
 
 // User Timing API again. These measurements tell you how long it took to generate the initial pizzas
@@ -500,6 +504,8 @@ function logAverageFrame(times) {   // times is the array of User Timing measure
 function updatePositions() {
   frame++;
   window.performance.mark("mark_start_frame");
+  // JL: moved position calcs outside of loop
+  // JL: calculate and push 5 possible values into an array for reference inside loop
   var scrollTopCalc = document.body.scrollTop / 1250;
   var arrSinCalc = [];
   for (var i = 0; i < 5; i++) {
@@ -507,8 +513,11 @@ function updatePositions() {
   }
   var j = 0;
   for (var i = 0; i < window.movingPizzas.length; i++) {
+    // JL: use window.movingPizzas stored after they are created
+    // JL: use value of j to loop thru 5 possible sin calculations
     window.movingPizzas[i].style.left = window.movingPizzas[i].basicLeft + 100*arrSinCalc[j] + 'px';
     j++;
+    // JL: reset j to 0 once 4th index is retrieved.
     if(j>4){ j=0; }
   }
 
@@ -523,18 +532,18 @@ function updatePositions() {
 }
 
 // runs updatePositions on scroll
-//window.addEventListener('scroll', updatePositions);
-var last_known_scroll_position = 0;
-var ticking = false;
+// JL: added requestAnimationFrame to throttle scroll event listener per a recommendation from the discussion forum.
+var last_pos = 0;
+var moving = false;
 window.addEventListener('scroll', function(e) {
-  last_known_scroll_position = window.scrollY;
-  if (!ticking) {
+  last_pos = window.scrollY;
+  if (!moving) {
     window.requestAnimationFrame(function() {
       updatePositions();
-      ticking = false;
+      moving = false;
     });
   }
-  ticking = true;
+  moving = true;
 });
 
 // Generates the sliding pizzas when the page loads.
@@ -543,6 +552,7 @@ document.addEventListener('DOMContentLoaded', function() {
   var s = 256;
 
   // can i only update the few pizzas on the current voew and not all of them?
+  // JL: dropped pizzas from 200 to 60
   for (var i = 0; i < 60; i++) {
     var elem = document.createElement('img');
     elem.className = 'mover';
@@ -551,8 +561,11 @@ document.addEventListener('DOMContentLoaded', function() {
     elem.style.width = "73.333px";
     elem.basicLeft = (i % cols) * s;
     elem.style.top = (Math.floor(i / cols) * s) + 'px';
+    // JL: changed querySelector to getElementById
     document.getElementById("movingPizzas1").appendChild(elem);
   }
+  // JL: saved movingPizzas onto window object for future references
+  // JL: also changed from querySelector to getElementsByClassName
   window.movingPizzas = document.getElementsByClassName('mover');
   updatePositions();
 });

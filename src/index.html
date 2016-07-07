@@ -9,10 +9,11 @@
     <title>Cameron Pittman: Portfolio</title>
 
     <!-- Hmm, what is the impact of web fonts on speed? Measure it...
+    ## JL: removed link to external font due to speed degradation
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:400" rel="stylesheet"> -->
-    <!-- // JL optomize css -->
-    <!-- <link href="css/style.css" rel="stylesheet"> -->
-    <link href="css/print.css" rel="stylesheet" media="print">
+    <!-- ## JL: added media=print to print css -->
+    <link href="css/print.min.css" rel="stylesheet" media="print">
+    <!-- ## JL: inlined minified style.css -->
     <style>
     html {
       font-size: 100%;
@@ -73,13 +74,10 @@
       ga('create', 'UA-XXXX-Y');
       ga('send', 'pageview');
     </script>
+    <!-- ## JL: added async to below js -->
     <script async src="http://www.google-analytics.com/analytics.js"></script>
     <script async src="js/perfmatters.js"></script>
   </head>
-  <!--  // JL grunt gulp image compress resize, minify compress javascript and css
-        // leverage browser caching
-        /// minify compress, cache
-  -->
   <body>
     <header>
       <a href="/"><img src="img/profilepic.jpg"></a>
