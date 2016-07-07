@@ -553,13 +553,14 @@ document.addEventListener('DOMContentLoaded', function() {
   var cols = 8;
   var s = 256;
 
-  // can i only update the few pizzas on the current voew and not all of them?
+  // can i only update the few pizzas on the current view and not all of them?
   // JL: dropped pizzas from 200 to 60
   // JL: moved variable declaration outside loop
   // JL: compressed "images/pizza.png"
-  var elem = document.createElement('img');
+
   var movingPizzas1Div = document.getElementById("movingPizzas1");
   for (var i = 0; i < 60; i++) {
+    var elem = document.createElement('img');
     elem.className = 'mover';
     elem.src = "images/pizza.png";
     elem.style.height = "100px";
