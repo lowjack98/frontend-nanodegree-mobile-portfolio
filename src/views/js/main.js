@@ -406,13 +406,13 @@ var resizePizzas = function(size) {
   function changeSliderLabel(size) {
     switch(size) {
       case "1":
-        document.getElementByClassName("pizzaSize").innerHTML = "Small";
+        document.getElementsByClassName("pizzaSize").innerHTML = "Small";
         return;
       case "2":
-        document.getElementByClassName("pizzaSize").innerHTML = "Medium";
+        document.getElementsByClassName("pizzaSize").innerHTML = "Medium";
         return;
       case "3":
-        document.getElementByClassName("pizzaSize").innerHTML = "Large";
+        document.getElementsByClassName("pizzaSize").innerHTML = "Large";
         return;
       default:
         console.log("bug in changeSliderLabel");
@@ -558,15 +558,16 @@ document.addEventListener('DOMContentLoaded', function() {
   // JL: moved variable declaration outside loop
   // JL: compressed "images/pizza.png"
   var elem = document.createElement('img');
-  elem.className = 'mover';
-  elem.src = "images/pizza.png";
-  elem.style.height = "100px";
-  elem.style.width = "73.333px";
+  var movingPizzas1Div = document.getElementById("movingPizzas1");
   for (var i = 0; i < 60; i++) {
+    elem.className = 'mover';
+    elem.src = "images/pizza.png";
+    elem.style.height = "100px";
+    elem.style.width = "73.333px";
     elem.basicLeft = (i % cols) * s;
     elem.style.top = (Math.floor(i / cols) * s) + 'px';
     // JL: changed querySelector to getElementById
-    document.getElementById("movingPizzas1").appendChild(elem);
+    movingPizzas1Div.appendChild(elem);
   }
   // JL: saved movingPizzas onto window object for future references
   // JL: also changed from querySelector to getElementsByClassName
