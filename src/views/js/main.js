@@ -407,13 +407,13 @@ var resizePizzas = function(size) {
   function changeSliderLabel(size) {
     switch(size) {
       case "1":
-        document.getElementsByClassName("pizzaSize").innerHTML = "Small";
+        document.getElementById("pizzaSize").innerHTML = "Small";
         return;
       case "2":
-        document.getElementsByClassName("pizzaSize").innerHTML = "Medium";
+        document.getElementById("pizzaSize").innerHTML = "Medium";
         return;
       case "3":
-        document.getElementsByClassName("pizzaSize").innerHTML = "Large";
+        document.getElementById("pizzaSize").innerHTML = "Large";
         return;
       default:
         console.log("bug in changeSliderLabel");
@@ -453,7 +453,8 @@ var resizePizzas = function(size) {
     // JL: moved dx and newwidth calcs outside for loop.
     var dx = determineDx(window.pizzasContainers[0], size);
     var newwidth = (window.pizzasContainers[0].offsetWidth + dx) + 'px';
-    for (var i = 0; i < window.pizzasContainers.length; i++) {
+    var numPizzas = window.pizzasContainers.length;
+    for (var i = 0; i < numPizzas; i++) {
       window.pizzasContainers[i].style.width = newwidth;
     }
   }
@@ -553,12 +554,15 @@ document.addEventListener('DOMContentLoaded', function() {
   var cols = 8;
   var s = 256;
   // can i only update the few pizzas on the current view and not all of them?
-  // JL: dropped pizzas from 200 to 48
   // JL: moved variable declaration outside loop
   // JL: compressed "images/pizza.png"
+  // JL: calculated the number of Pizzas based on height of screen
+  var screenHeight = window.screen.height;
+  var rows = screenHeight / s;
+  var numVisiblePizzas = rows * cols;
   var movingPizzas1Div = document.getElementById("movingPizzas1");
   var elem;
-  for (var i = 0; i < 48; i++) {
+  for (var i = 0; i < numVisiblePizzas; i++) {
     elem = document.createElement('img');
     elem.className = 'mover';
     elem.src = "images/pizza-100mover.png";
