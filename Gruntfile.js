@@ -56,12 +56,17 @@ module.exports = function(grunt) {
             width: 115,
             suffix: 'sm',
             quality: 50
+          },
+          {
+            height: 100,
+            suffix: 'mover',
+            quality: 50
           }
         ]
       },
       files: [{
         expand: true,
-        src: ['pizzeria.jpg'],
+        src: ['pizzeria.jpg','pizza.png'],
         cwd: 'src/views/images/',
         dest: 'dist/views/images/'
       }]
