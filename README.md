@@ -23,20 +23,24 @@ copy and pasted hosted url into `https://developers.google.com/speed/pagespeed/i
 ### Optimization made on `views/js/main.js` for `pizza.html`
 
 1. Modified function determineDx. Changed querySelector to getElementById.
-2. Saved array of randomPizzaContainers in window.pizzasContainers right after they are all created.
-  * Also changed method from querySelector to getElementsByClassName
-3. Modified function changePizzaSizes.
+  1. Saved array of randomPizzaContainers in window.pizzasContainers right after they are all created.
+  2. Changed method from querySelector to getElementsByClassName
+2. Modified function changePizzaSizes.
   1. Changed all pizza array references to window.pizzasContainers
   2. Moved dx and newwidth calcs outside of loop.
-4. Modified function updatePositions
+  3. Changed method from querySelector to getElementsByClassName
+3. Modified function updatePositions
   1. Moved position calcs outside of loop. there are only 5 possible values, so i put them in an array and just loop through the array as needed for the calculation inside the for loop.
   2. Changed all pizza array references to movingPizzas
-5. Modified DOMContentLoaded event listener:
+  3. Changed to CSS3 transform translateX and modified calcs.
+  4. Added backface-visibility: hidden; to mover class.
+  5. resized pizza.png to 100px tall.
+4. Modified DOMContentLoaded event listener:
   1. Dropped number of movers from 200 to 48
   2. Changed querySelector to getElementById
   3. Saved array of movingPizzas in window.movingPizzas right after they are all created.
   4. Moved var elem declaration outside of loop.
   5. Used `https://tinyjpg.com/` to compress pizza.png
-6. Added requestAnimationFrame to throttle scroll event listener per a recommendation from the discussion forum.
-7. Moved variable declaration for pizzasDiv outside loop on line 475.
-8. Modified function changeSliderLabel. Changed querySelector to getElementsByClassName.
+5. Added requestAnimationFrame to throttle scroll event listener per a recommendation from the discussion forum.
+6. Moved variable declaration for pizzasDiv outside loop on line 475.
+7. Modified function changeSliderLabel. Changed querySelector to getElementsByClassName.

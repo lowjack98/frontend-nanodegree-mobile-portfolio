@@ -505,13 +505,6 @@ if(debug) {
 // Moves the sliding background pizzas based on scroll position
 // JL: define value array outside function
 // JL: calculate and push 5 possible values into an array for reference inside loop
-/*
-var scrollTopCalc = document.body.scrollTop / 1250;
-var arrSinCalc = [];
-for (var i = 0; i < 5; i++) {
-  arrSinCalc.push(Math.sin(scrollTopCalc + (i % 5)));
-}
-*/
 function updatePositions() {
   if(debug) {
     frame++;
@@ -522,8 +515,10 @@ function updatePositions() {
   for(var i = 0; i < 5; i++) {
     arrSinCalc.push(((Math.sin(scrollTopCalc + i)) * 100) + 550);
   }
+  console.log(arrSinCalc);
   var numMovers = window.movingPizzas.length;
   for (var i = 0; i < numMovers; i++) {
+    // JL: Changed to CSS3 transformL translateX
     window.movingPizzas[i].style.transform = 'translateX(' + (arrSinCalc[i % 5] - window.movingPizzas[i].basicLeft) + 'px)';
   }
 
