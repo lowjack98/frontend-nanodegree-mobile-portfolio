@@ -515,7 +515,6 @@ function updatePositions() {
   for(var i = 0; i < 5; i++) {
     arrSinCalc.push(((Math.sin(scrollTopCalc + i)) * 100) + 550);
   }
-  console.log(arrSinCalc);
   var numMovers = window.movingPizzas.length;
   for (var i = 0; i < numMovers; i++) {
     // JL: Changed to CSS3 transformL translateX
