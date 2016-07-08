@@ -558,12 +558,12 @@ document.addEventListener('DOMContentLoaded', function() {
   // JL: moved variable declaration outside loop
   // JL: compressed "images/pizza.png"
   var elem = document.createElement('img');
-  elem.className = 'mover';
-  elem.src = "images/pizza.png";
-  elem.style.height = "100px";
-  elem.style.width = "73.333px";
   var movingPizzas1Div = document.getElementById("movingPizzas1");
   for (var i = 0; i < 60; i++) {
+    elem.className = 'mover';
+    elem.src = "images/pizza.png";
+    elem.style.height = "100px";
+    elem.style.width = "73.333px";
     elem.basicLeft = (i % cols) * s;
     elem.style.top = (Math.floor(i / cols) * s) + 'px';
     // JL: changed querySelector to getElementById
