@@ -39,4 +39,4 @@ copy and pasted hosted url into `https://developers.google.com/speed/pagespeed/i
   5. Used `https://tinyjpg.com/` to compress pizza.png
 6. Added requestAnimationFrame to throttle scroll event listener per a recommendation from the discussion forum.
 7. Moved variable declaration for pizzasDiv outside loop on line 475.
-8. Modified function changeSliderLabel. Changed querySelector to getElementByClassName.
+8. Modified function changeSliderLabel. Changed querySelector to getElementsByClassName.
