@@ -503,16 +503,16 @@ function logAverageFrame(times) {   // times is the array of User Timing measure
 // https://www.igvita.com/slides/2012/devtools-tips-and-tricks/jank-demo.html
 
 // Moves the sliding background pizzas based on scroll position
+// JL: define value array outside function
+// JL: calculate and push 5 possible values into an array for reference inside loop
+var scrollTopCalc = document.body.scrollTop / 1250;
+var arrSinCalc = [];
+for (var i = 0; i < 5; i++) {
+  arrSinCalc.push(Math.sin(scrollTopCalc + (i % 5)));
+}
 function updatePositions() {
   frame++;
   window.performance.mark("mark_start_frame");
-  // JL: moved position calcs outside of loop
-  // JL: calculate and push 5 possible values into an array for reference inside loop
-  var scrollTopCalc = document.body.scrollTop / 1250;
-  var arrSinCalc = [];
-  for (var i = 0; i < 5; i++) {
-    arrSinCalc.push(Math.sin(scrollTopCalc + (i % 5)));
-  }
   var j = 0;
   for (var i = 0; i < window.movingPizzas.length; i++) {
     // JL: use window.movingPizzas stored after they are created
@@ -557,13 +557,13 @@ document.addEventListener('DOMContentLoaded', function() {
   // JL: dropped pizzas from 200 to 60
   // JL: moved variable declaration outside loop
   // JL: compressed "images/pizza.png"
-  var elem = document.createElement('img');
-  elem.className = 'mover';
-  elem.src = "images/pizza.png";
-  elem.style.height = "100px";
-  elem.style.width = "73.333px";
   var movingPizzas1Div = document.getElementById("movingPizzas1");
-  for (var i = 0; i < 60; i++) {
+  for (var i = 0; i < 48; i++) {
+    var elem = document.createElement('img');
+    elem.className = 'mover';
+    elem.src = "images/pizza.png";
+    elem.style.height = "100px";
+    elem.style.width = "73.333px";
     elem.basicLeft = (i % cols) * s;
     elem.style.top = (Math.floor(i / cols) * s) + 'px';
     // JL: changed querySelector to getElementById
