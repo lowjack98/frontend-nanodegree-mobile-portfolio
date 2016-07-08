@@ -559,7 +559,8 @@ document.addEventListener('DOMContentLoaded', function() {
   // JL: compressed "images/pizza.png"
   var elem = document.createElement('img');
   var movingPizzas1Div = document.getElementById("movingPizzas1");
-  for (var i = 0; i < 60; i++) {
+  for (var i = 0; i < 48; i++) {
+    var elem = document.createElement('img');
     elem.className = 'mover';
     elem.src = "images/pizza.png";
     elem.style.height = "100px";
