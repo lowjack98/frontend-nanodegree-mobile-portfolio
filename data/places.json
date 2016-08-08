@@ -1,7 +1,5 @@
 {
-   "html_attributions" : [],
-   "next_page_token" : "CoQC_gAAALAIK60_5YGQi4DjSiIm7bHzpkVPKc4SSdzEfXY-Wlz0zWyEMQ5_ss1IeRFTnCgugwpyCh90FjC6WI4pwiJKT3AGw08IrmtoFyuV0kvvtRba5lB3auNqNrE_KdEep3kBiW9t4fz7D_HpECT8qRsJBkAfRz5JUF7BgalzTDoKd_UKQtkbDEVugm924d4NZkMUztZJlBo3RQm15MdZdIEVI-w2XYUw-R9NlaxPYHL93cwUdDyKG0GRjwXiOOz3iI1c4Uk6avkiIhaiDcdN1s7OaLGLKz8vpD6LI1F0kLHOsRZLFSCYlldppx931KhrmsPVh27RaO3Q5UodV0UImI_4RfYSEOnCD4l_QRfeJ7sGSnnuubQaFFJrlRkVkyaqkW4V_Rv_HAVAJDZn",
-   "results" : [
+  "results" : [
       {
          "geometry" : {
             "location" : {
@@ -12,170 +10,60 @@
          "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
          "id" : "1a59de1a05c550cef9b35ce049b5f825f70286ec",
          "name" : "Yogurt Story",
-         "opening_hours" : {
-            "open_now" : false,
-            "weekday_text" : []
-         },
-         "photos" : [
-            {
-               "height" : 2988,
-               "html_attributions" : [
-                  "\u003ca href=\"https://maps.google.com/maps/contrib/104973843988451540636/photos\"\u003eJohn Roper\u003c/a\u003e"
-               ],
-               "photo_reference" : "CoQBdwAAAKGxC8HuQQCuts-asZoNxevW7zmq4ZbalTtk3TykoU9hPkeKIEq32W67vje47K_b8wTQ0ixKkNumugjsKbeee-69aMHwXZF0f9IboR7Q3yCB_dDPit8IFSpbpwqCLm7rB5V2A-K-7584sOwkkAVL2IYCvvzwjZGe6ayqBTJjiT_fEhAaXxSakN7p8bdHLWdovVtNGhQcAU3O5Czc8awR637qk1kiSjij5A",
-               "width" : 5312
-            }
-         ],
          "place_id" : "ChIJEYfKVFPQTYYR8hMZX3-M4xw",
-         "reference" : "CmRfAAAA7c5-00RtNNQ3HDb0T3D2TmD0SdQ4dwVIM3T0K32iKurYlV76oNIMxgpxpYiX4TatUgcmrqJWx8JQMmwau-NgCjIKiqLOY6TOMUF4le4ApmOoMHe_kBFpKiwyg5YCujtOEhA_Et02HC-TN_qx7JBwBa-SGhQPz49JqHiNBXrKD5V0aJI2eJNPUg",
-         "scope" : "GOOGLE",
-         "types" : [ "food", "store", "point_of_interest", "establishment" ],
-         "vicinity" : "1224 U.S. 377, Roanoke"
+         "yelp_id": "yogurtie-roanoke"
       },
       {
          "geometry" : {
             "location" : {
                "lat" : 32.9979562,
                "lng" : -97.22985180000001
-            },
-            "viewport" : {
-               "northeast" : {
-                  "lat" : 32.99799105,
-                  "lng" : -97.22953184999999
-               },
-               "southwest" : {
-                  "lat" : 32.99793684999999,
-                  "lng" : -97.22995845000001
-               }
             }
          },
          "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
          "id" : "c25d9d99c0cdc38685ca37199a7ca3ba7044925e",
          "name" : "Hey Sugar",
-         "opening_hours" : {
-            "open_now" : true,
-            "weekday_text" : []
-         },
-         "photos" : [
-            {
-               "height" : 1536,
-               "html_attributions" : [
-                  "\u003ca href=\"https://maps.google.com/maps/contrib/104878253006697212256/photos\"\u003eStacey Coster\u003c/a\u003e"
-               ],
-               "photo_reference" : "CoQBcwAAANzaNCYD_oHeoqao7XFUnGg6dCnMP0M65QoKQaLJDYS290xsvFnmhE7PF0FyTgyvrOS21xT5eLN6mjWUlMzUdkLtg_6Mx6wHp2NKQPQ0_kIUNmLgitRH9K_CKi3bPvYzD7z5AX6MsK-1mOecZJDMEBzXOS7idNrLhdSYSADl10ajEhAvq9h5mIWcWYFGo8c-k9TDGhTq5yR0PGlI2xD0-UgQjPtygECt5w",
-               "width" : 2048
-            }
-         ],
          "place_id" : "ChIJQWU1yfvQTYYRK84o-wD4Hig",
-         "rating" : 4.9,
-         "reference" : "CmRcAAAAE4Qk0CW3FP21dRdkUt2cAS12wOS4QUGWDz6iYP3b42iKbZ4R1mNsCDroYuHMBOeFt6WmXUsOHwlNDJAQ2usHN_kNE5r74h3qh76Nw_sHLX0td8pKtfZWo9nFMThTK7_-EhBbzsW8Vj0xxt32PEq_EO6PGhTXxCAmd3nrTuFvd7NISWQ8VpnMiQ",
-         "scope" : "GOOGLE",
-         "types" : [ "food", "store", "point_of_interest", "establishment" ],
-         "vicinity" : "111 South Oak Street, Roanoke"
+         "yelp_id": "hey-sugar-candy-store-roanoke"
       },
       {
          "geometry" : {
             "location" : {
                "lat" : 32.93989800000001,
                "lng" : -97.1813509
-            },
-            "viewport" : {
-               "northeast" : {
-                  "lat" : 32.94040575,
-                  "lng" : -97.18123765
-               },
-               "southwest" : {
-                  "lat" : 32.93972875,
-                  "lng" : -97.18169064999999
-               }
             }
          },
          "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
          "id" : "7bd64954fec28c70016721e90ae0c6f0125add2c",
          "name" : "Ice Cream Place",
-         "opening_hours" : {
-            "open_now" : false,
-            "weekday_text" : []
-         },
          "place_id" : "ChIJ3a45JKDWTYYRqbmfS_90qVk",
-         "price_level" : 1,
-         "rating" : 4.7,
-         "reference" : "CnRiAAAACwmc8H3D_W3J43KiJRJgUTviyu7EVCxKNQyVt2zgLQukODEaoa_RTpXKajPbzwlW67DHpKPqGgAZ7kR-Zrm9qhN9LjLgylgD05ccgVKBUvbiIjXIEP60HVlAyrrkjJy5FIe0sZnGZiEaIFCtNlGWCBIQyaBqNFtFh0QeU8mkxha8VRoUp4Q59GPIkXzqzbVtfzOh05-fM5U",
-         "scope" : "GOOGLE",
-         "types" : [ "food", "store", "point_of_interest", "establishment" ],
-         "vicinity" : "1957 West Southlake Boulevard, Southlake"
+         "yelp_id" : "ice-cream-place-southlake"
       },
       {
          "geometry" : {
             "location" : {
                "lat" : 32.93869789999999,
                "lng" : -97.18321189999999
-            },
-            "viewport" : {
-               "northeast" : {
-                  "lat" : 32.93874044999999,
-                  "lng" : -97.18314504999999
-               },
-               "southwest" : {
-                  "lat" : 32.93857025000001,
-                  "lng" : -97.18341244999999
-               }
             }
          },
          "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
          "id" : "7e679bd8772bcb20b9f7905260e51d926b5a322b",
          "name" : "Baskin Robbins",
-         "opening_hours" : {
-            "open_now" : true,
-            "weekday_text" : []
-         },
          "place_id" : "ChIJjclKRJ_WTYYR05b_SpK9d54",
-         "price_level" : 2,
-         "reference" : "CnRiAAAADMap_CuP9nnsnlImyzPzoQH2rGeL6QjVI5bkCudFyKFSqjHzAOVT4Ht9If8fHiIL9xDMBY1y0m2sT5v5Z-MBAtvzaiWjtxY5o-n2N__tALfo79XucbKz1m7kSbJGzSt2CC4bMIRI7x2sG-sUDAnS6hIQ3GnRPN0q_285yM2dW23dRxoUpOxlOyVefF1w7GJABcR3qK4F5W0",
-         "scope" : "GOOGLE",
-         "types" : [ "food", "store", "point_of_interest", "establishment" ],
-         "vicinity" : "2063 West Southlake Boulevard, Southlake"
+         "yelp_id" : "baskin-robbins-southlake"
       },
       {
          "geometry" : {
             "location" : {
                "lat" : 32.9350027,
                "lng" : -97.2195455
-            },
-            "viewport" : {
-               "northeast" : {
-                  "lat" : 32.9352636,
-                  "lng" : -97.21942580000001
-               },
-               "southwest" : {
-                  "lat" : 32.93422,
-                  "lng" : -97.21958539999999
-               }
             }
          },
          "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
          "id" : "00117d97d1e9c3bb53a724d84557f31488de4921",
-         "name" : "Freddy's Frozen Custard & Steakburgers",
-         "opening_hours" : {
-            "open_now" : true,
-            "weekday_text" : []
-         },
-         "photos" : [
-            {
-               "height" : 1152,
-               "html_attributions" : [
-                  "\u003ca href=\"https://maps.google.com/maps/contrib/118178299843051593785/photos\"\u003eGerardo Gutierrez\u003c/a\u003e"
-               ],
-               "photo_reference" : "CoQBdwAAAF4551qamxstZs2n_rsVWT_kPNvPaNMJG3l9tUCeq_rEgY5M3jJNG8xH0sGBSr_wCiZDKximL5zF55LgOvaLQ8ByycW1onRFWAuIhKQDE51xGrc8VTEa2EfY1JDzQNKSeKRV_Rxvl5-mrJ9agZTvNCORfi1gV7HZ8yUHnDacA0qeEhCjeS7Be8CuicSZ8tZoTAMjGhRTi5IFauZkt93AMgwYB6vrOI95-A",
-               "width" : 2048
-            }
-         ],
+         "name" : "Freddys Frozen Custard & Steakburgers",
          "place_id" : "ChIJwVYdqOHWTYYRsBd_WKlrnUM",
-         "rating" : 4,
-         "reference" : "CoQBeQAAAGmK51kG2DGB7KcPEOOmfwJXHqfBdQZ2ni0W2g7mFnr4jGdgksZfVT6XKtsjXc7feAxyVJUEtjj8A23zpEjSn-SLd5rJ6pVs-ftdNeuuM4qo6shIvvSRGn0ujbgzUPJzamsxSzn-WQUPylid2LuBEAZpPMwtbRAHeBfAOjweVToAEhBY2Y8QLVogbA4_h2eRlA13GhSW4zB2CKAa5soH5X0r_6uENs44XA",
-         "scope" : "GOOGLE",
-         "types" : [ "restaurant", "food", "store", "point_of_interest", "establishment" ],
-         "vicinity" : "1471 Keller Parkway, Keller"
+         "yelp_id" : "freddys-frozen-custard-and-steakburgers-keller"
       },
       {
          "geometry" : {
@@ -186,183 +74,48 @@
          },
          "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
          "id" : "e9c714f7bc4cf08232fcb2fda1b2419ecd8b44e9",
-         "name" : "Milwaukee Joe's Gourmet Ice",
-         "opening_hours" : {
-            "open_now" : false,
-            "weekday_text" : []
-         },
-         "photos" : [
-            {
-               "height" : 1836,
-               "html_attributions" : [
-                  "\u003ca href=\"https://maps.google.com/maps/contrib/115029406339334083023/photos\"\u003eB Schirato\u003c/a\u003e"
-               ],
-               "photo_reference" : "CoQBdwAAAJSfAVbsDxRigESpvDvUWSc-OLxKup1MftEvCQ3ZdCH2QrVYU9IfxdANizOHtLERx6jWW7EIjT1vyDBXG-wk_D9i_r2sdB65BCJRUz9nu4JhS0iz5t7_arVN7Khi5E-lT5eCBqlD_jL_tANV_cPkYzUJ8PgX0OfH5w39ThjX8VHnEhAEKxhB8BbtLBrpYfZ1Pr2iGhQjAFUpPBuphvQeruGkhqPy3HfgQw",
-               "width" : 3264
-            }
-         ],
+         "name" : "Milwaukee Joes Gourmet Ice",
          "place_id" : "ChIJQ0Uva-3UTYYRQUt5xl33bKo",
-         "price_level" : 1,
-         "rating" : 3.8,
-         "reference" : "CnRvAAAAcrGuUD44VXXSY98Vc8bGRTXeoGZY4zZdBbsxL6TI3u7BgmiqECfWJGpAJkC0CSGPExpduM_qEzuI2BrRR77Om3LlhMh33gFyahzMxZsyA6eP4YZyE0K7wTTNM1o1uO4F88B91AG7CStPJtdJp5l_FBIQnxFO1o1XM-hV7yMmy1yJBxoU0h4xcrRZt4GvjWqGecPWevPGRjo",
-         "scope" : "GOOGLE",
-         "types" : [ "food", "store", "point_of_interest", "establishment" ],
-         "vicinity" : "1417 Main Street, Southlake"
+         "yelp_id" : "milwaukee-joes-gourmet-ice-cream-southlake-2"
       },
       {
          "geometry" : {
             "location" : {
                "lat" : 32.9415885,
                "lng" : -97.15578350000001
-            },
-            "viewport" : {
-               "northeast" : {
-                  "lat" : 32.94183365000001,
-                  "lng" : -97.1557526
-               },
-               "southwest" : {
-                  "lat" : 32.94085305,
-                  "lng" : -97.1557938
-               }
             }
          },
          "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
          "id" : "81e2db512508156e512946e9c101615b6d3490d6",
-         "name" : "Rita's",
-         "opening_hours" : {
-            "open_now" : true,
-            "weekday_text" : []
-         },
-         "photos" : [
-            {
-               "height" : 1144,
-               "html_attributions" : [
-                  "\u003ca href=\"https://maps.google.com/maps/contrib/105549110270225020979/photos\"\u003eRita&#39;s\u003c/a\u003e"
-               ],
-               "photo_reference" : "CoQBcwAAAAbmcNOLB0h2T_S7SdQ36xsaq4nYE0cZQkebVank3qcPCCJ_9MexKRdnMBcznaqCjPVhk_qBDA6TpW-6o4N9iYK45FXsY0ojnCBFSZMhlfF3qZMgxmY9LXqfoQ7suZpmFlZVXzpITuzVE-SynWm2ZJmTTH4ZSWCpYIfw5iMH_iQaEhDVAH-h5-zArUVSCvNrX1tcGhSLFqdqAL_EkjzGJAx2VbKI6tsOKg",
-               "width" : 1145
-            }
-         ],
+         "name" : "Ritas",
          "place_id" : "ChIJRVWf-z_UTYYRSRSuCQGfM9g",
-         "price_level" : 1,
-         "rating" : 4,
-         "reference" : "CmRaAAAAzoomM4_KYJTduxKthbjOtnbMOTiC-HV2g_OEv7MimWk_xZgZ6PYsem1jucB_paa5y-R8rRs_BN3QFBCq5iCrpWSC8HaJPtM-tNbxSdL0AFbCXVrN2vw64HH6K01vcCnHEhDMNRVnhtzfNcBWkFBMSo6rGhQz_K-O3mJNR6aTDvYdeIAEs3u1QQ",
-         "scope" : "GOOGLE",
-         "types" : [ "cafe", "food", "store", "point_of_interest", "establishment" ],
-         "vicinity" : "410 West Southlake Boulevard, Southlake"
+         "yelp_id" : "ritas-italian-ice-southlake"
       },
       {
          "geometry" : {
             "location" : {
-               "lat" : 32.9777577,
-               "lng" : -97.2746367
-            },
-            "viewport" : {
-               "northeast" : {
-                  "lat" : 32.97868455,
-                  "lng" : -97.27459345
-               },
-               "southwest" : {
-                  "lat" : 32.97744875,
-                  "lng" : -97.27476645
-               }
+               "lat" : 32.9078088,
+               "lng" : -97.18984759999999
             }
          },
-         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
-         "id" : "022eecfa9c397cd57a68c055abe7da97712a40f6",
-         "name" : "Mister Softee Texas",
-         "opening_hours" : {
-            "open_now" : true,
-            "weekday_text" : []
-         },
-         "photos" : [
-            {
-               "height" : 423,
-               "html_attributions" : [
-                  "\u003ca href=\"https://maps.google.com/maps/contrib/114205421970507823473/photos\"\u003eMister Softee Texas\u003c/a\u003e"
-               ],
-               "photo_reference" : "CoQBcwAAANMhXSHD2mx6r--CHxD1SZ-hCQTpv0LdF4uFzqJVFjeRoIdgkPy-X7zRWJeEpk-T9V8pFSkU-vlDyquR4y21YoOkYiD-SjMMZsEEpvpANcSWI9zcfBM81TeA2BWbYex2fSLWaEK_v59U_rg5yGnEvV7KVOAHCMCVNxshjubqVRSpEhBYJMp0wpmRU7XyFEVRJpxNGhR99TR_uFgoeKOjZp35c6wt52buBw",
-               "width" : 640
-            }
-         ],
-         "place_id" : "ChIJEWzVcg3aTYYRCLtpqGz_zaI",
-         "reference" : "CnRnAAAAmK8B_FdIHOSCh7Z8V-sH-ABU0t22PEvKNmoX7VtiYRy-vKrGlLhHDTY-PUrvxVMtQu6IwbStQebTTHdS3sn_DvBVP6bCiMST_EWHPr98W9RD0loabC1dAX-5u-IlUK2SZezSc9OnkoDMqbM0bGH9aRIQugRlgZHy3eRl__5F4s8mPRoUfroRDSxml4Tb4vRuPZtuT_h2EmQ",
-         "scope" : "GOOGLE",
-         "types" : [
-            "meal_delivery",
-            "food",
-            "store",
-            "point_of_interest",
-            "establishment"
-         ],
-         "vicinity" : "4000 Haslet-Roanoke Road, Roanoke"
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+         "id" : "8f0cba234442845acee7bf44d3949aaa866ac445",
+         "name" : "Yogurtville",
+         "place_id" : "ChIJETuEzXrWTYYRqUPnFJzzSAE",
+         "yelp_id" : ""
       },
       {
          "geometry" : {
             "location" : {
                "lat" : 33.0744424,
                "lng" : -97.1294996
-            },
-            "viewport" : {
-               "northeast" : {
-                  "lat" : 33.07473219999999,
-                  "lng" : -97.1293151
-               },
-               "southwest" : {
-                  "lat" : 33.07357300000001,
-                  "lng" : -97.1295611
-               }
             }
          },
          "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
          "id" : "c0a9b6973969687863d0a63c1b2532bbd55abbcc",
          "name" : "Marble Slab Creamery",
-         "opening_hours" : {
-            "open_now" : false,
-            "weekday_text" : []
-         },
-         "photos" : [
-            {
-               "height" : 3024,
-               "html_attributions" : [
-                  "\u003ca href=\"https://maps.google.com/maps/contrib/102324515246039903381/photos\"\u003eJesse Whitley\u003c/a\u003e"
-               ],
-               "photo_reference" : "CoQBdwAAAKbw6ExuUJFOpeYbdOpknULsBl8bEBIdB2mlr4myXWv97cBzYN3_HZA5W-Gx8CM5PAYvF5yLER1aen4FeRZ3ds0xyG-eWHcLxQridHqSMJyOOLxnbJpAAuKd26hqaS6RHzEgJuddUdX-pmESs6Fkwi3WHBe-YC15lyeZZfup6ae-EhDW8hGk-wZfzgHaWPFXuFDgGhTVi5xKU029v1C9WtuDTqOJPN4Q2A",
-               "width" : 4032
-            }
-         ],
          "place_id" : "ChIJRb25nnPNTYYRazbBaAhAkZQ",
-         "price_level" : 1,
-         "reference" : "CnRoAAAAhQ5jrMi-WIdQ3ZwXTMUhtQ1bJ5vw-JpMUY0u_s7pY-_SaXqFhs10Gk3DUeBn6KcTQAb774atZw8L8YfEK82nENcvm3LvPS_cPYrW-MHb49NZNJ4nZ_ZWTntYUFKkjbVKtIfittJ2KQRKATD5353fZhIQErXXDGQPMon9OIJ3Zfm5bBoU1ZfKn7Uh2hjl-cA_IEZz3JyCXxI",
-         "scope" : "GOOGLE",
-         "types" : [ "food", "store", "point_of_interest", "establishment" ],
-         "vicinity" : "2001 FM 407 East, Bartonville"
-      },
-      {
-         "geometry" : {
-            "location" : {
-               "lat" : 32.9122515,
-               "lng" : -97.3323243
-            },
-            "viewport" : {
-               "northeast" : {
-                  "lat" : 32.91225265,
-                  "lng" : -97.33123424999999
-               },
-               "southwest" : {
-                  "lat" : 32.91224805,
-                  "lng" : -97.33268765
-               }
-            }
-         },
-         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
-         "id" : "94e17986be126ba317bfe8d454931f9ceae4002b",
-         "name" : "Blue Bell Creameries",
-         "place_id" : "ChIJgcWylSHZTYYRAfloxGC4cAY",
-         "reference" : "CnRnAAAAfM91SaMEz05fvLAcNCTOte4fxtk4ic2M1E3UyshLmCPDaORlTFrwG_BLMMSe2ZI4K-NzmoeBcwR17IhAJU5YQmmWiBKmQaHSMFPVqr_KqalaxT0xAtJNBpvDtRawCYI7wWAFlTrDWAgi_9uIS6nG1xIQ0GlMbFaekWER4HimG-Li1BoUCK7VxPGww7ljal0wb_mrfTGCdHg",
-         "scope" : "GOOGLE",
-         "types" : [ "food", "store", "point_of_interest", "establishment" ],
-         "vicinity" : "9525 Harmon Road, Fort Worth"
+         "yelp_id" : ""
       },
       {
          "geometry" : {
@@ -374,274 +127,73 @@
          "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
          "id" : "7aa61040ffe9be0704b04635a949ea01997c9f30",
          "name" : "Cold Stone Creamery",
-         "opening_hours" : {
-            "open_now" : false,
-            "weekday_text" : []
-         },
          "place_id" : "ChIJHSGKeQHZTYYR4JKadQ3KhlQ",
-         "price_level" : 1,
-         "rating" : 4.1,
-         "reference" : "CnRmAAAAGK3VERLPUQqwc8sA4HZ-wg1Ol7eq9k2FNvlheCP06t6PZgyrU7WJ2aAXXV0V4U_7XwbzeoKviiSXDgvqA7R_4TAkdDg2CKKEr4FRdUuxPL3ClJsxjjvhOGrIXfrqSmBnW-oDosCp_PLxYytmcPodyBIQdNHwnGZW48WOVAXh8Wo6hxoU6wJ_hliJvlAPUjZLaBveobttT80",
-         "scope" : "GOOGLE",
-         "types" : [ "food", "store", "point_of_interest", "establishment" ],
-         "vicinity" : "2948 Texas Sage Trail, Fort Worth"
+         "yelp_id" : "cold-stone-creamery-fort-worth-5"
       },
       {
          "geometry" : {
             "location" : {
                "lat" : 32.878856,
                "lng" : -97.28889599999999
-            },
-            "viewport" : {
-               "northeast" : {
-                  "lat" : 32.8788581,
-                  "lng" : -97.28854804999999
-               },
-               "southwest" : {
-                  "lat" : 32.87885530000001,
-                  "lng" : -97.28993985
-               }
             }
          },
          "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
          "id" : "b517528a55e77f80bd5a7022f0b95a0c87e1d824",
-         "name" : "Woolley's Frozen Custard (Beach St.)",
-         "opening_hours" : {
-            "open_now" : false,
-            "weekday_text" : []
-         },
-         "photos" : [
-            {
-               "height" : 720,
-               "html_attributions" : [
-                  "\u003ca href=\"https://maps.google.com/maps/contrib/117722937052247366708/photos\"\u003eWoolley&#39;s Frozen Custard (Beach St.)\u003c/a\u003e"
-               ],
-               "photo_reference" : "CoQBcwAAAIXJ_4-KO0PWl6KArWXZkAFxVqo-V-qJX2V9yqAYIFv-OwtXnrAULhsYMSJlv7zuxCkJW_HhQTtZtlgyDvY1pi6Wc9ffLz9fcqckKEWVNMWoyRfWnffd-fJJQ8vNlrIdHOfAo7k5QrYs43bi01mryHWQTw1ZiJgI90-Txt1SqI2OEhDtfMcFKM6iH6iW90tmQiwHGhTKamZ565p9XJW2cNIF4yfuaV-UbQ",
-               "width" : 960
-            }
-         ],
+         "name" : "Woolleys Frozen Custard",
          "place_id" : "ChIJV9BlnW3YTYYRVmU14nLRlNM",
-         "rating" : 4.2,
-         "reference" : "CoQBeAAAABpLCqTaYHE54rwS9O0GvUvi_vxyt9WiVy8lq6Tg47Br3dpNY49ZyLVIqVhq6pI3cvFnNqe-6xhm_MLIZzMfXKe3jE8hd8yc3DOzKcKzEgeUlHIpQr5LKR7Bm2zfiyCb8xLNbPwMqIkl0wtE_1Vmw60PPd5ZtbrmeAz7PDzIkEyqEhCKNNsqqbS9hsu_ud1axkwJGhSXa9Dv-RMJLCmXeD-A9Och6O4D8A",
-         "scope" : "GOOGLE",
-         "types" : [ "restaurant", "food", "store", "point_of_interest", "establishment" ],
-         "vicinity" : "7630 North Beach Street #166, Fort Worth"
+         "yelp_id" : "woolleys-frozen-custard-fort-worth"
       },
       {
          "geometry" : {
             "location" : {
                "lat" : 33.0745517,
                "lng" : -97.08547519999999
-            },
-            "viewport" : {
-               "northeast" : {
-                  "lat" : 33.07504715,
-                  "lng" : -97.0846784
-               },
-               "southwest" : {
-                  "lat" : 33.07438655000001,
-                  "lng" : -97.0857408
-               }
             }
          },
          "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
          "id" : "3ad0fa806d49cd8ee4174cfeebf5db06df132444",
-         "name" : "Ben & Jerry's",
-         "opening_hours" : {
-            "open_now" : false,
-            "weekday_text" : []
-         },
-         "photos" : [
-            {
-               "height" : 2160,
-               "html_attributions" : [
-                  "\u003ca href=\"https://maps.google.com/maps/contrib/100921697476686219693/photos\"\u003eMatthew Boettcher\u003c/a\u003e"
-               ],
-               "photo_reference" : "CoQBdwAAAL2XRWOiumRpxQUo2n75I3OsYbzl7IzO8UPnzjpIoCVNbHPO9y85GblHOrP9wsUWpadMWW6_9nbpwnDWQtKJPlMvXIMQRvvF0xUH3DY4KTDgbwBox3GQxVHzBcYhVksDjQu989tOXKaq9kNqCJIVNRN5V4s5YKN3ht3dtlqTlljpEhAl9Dx7XMRNd57RIFN41NPmGhRSAJg1AFbCQVWgkrArVwTC-60QMw",
-               "width" : 3840
-            }
-         ],
+         "name" : "Ben & Jerrys",
          "place_id" : "ChIJR_vFybYyTIYRarGSvubbYbU",
-         "price_level" : 1,
-         "rating" : 3.8,
-         "reference" : "CnRhAAAA7wg6xNrJtcKBCviJfdxSFh4JR49s0XN9yhKGHiyeFoImUyVWUGyqRRh0_wbqUJfMWeA2mJ3DoBAfaJX7Y1kEhgcQgjsRXH3dxMHBIn2ho48prnoReqYrSy77f87-xZ3MKrB1xp_by6PTtvg9-itfIhIQQAUJyFR7n79DF1n93avEYBoUUMMA4WVJDlJJDG0O1jhxuZTOFkE",
-         "scope" : "GOOGLE",
-         "types" : [ "bakery", "food", "store", "point_of_interest", "establishment" ],
-         "vicinity" : "4061 Barton Creek #120, Highland Village"
+         "yelp_id" : "ben-and-jerrys-highland-village"
       },
       {
          "geometry" : {
             "location" : {
                "lat" : 32.8750819,
                "lng" : -97.16326889999999
-            },
-            "viewport" : {
-               "northeast" : {
-                  "lat" : 32.87524625,
-                  "lng" : -97.1628348
-               },
-               "southwest" : {
-                  "lat" : 32.87458885,
-                  "lng" : -97.16341359999998
-               }
             }
          },
          "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
          "id" : "dea5af18570caa7296995a11c703ac733832e996",
-         "name" : "Braum's Ice Cream & Burger Restaurant",
-         "opening_hours" : {
-            "open_now" : true,
-            "weekday_text" : []
-         },
-         "photos" : [
-            {
-               "height" : 1678,
-               "html_attributions" : [
-                  "\u003ca href=\"https://maps.google.com/maps/contrib/110520770094443231616/photos\"\u003eRussell Rogers\u003c/a\u003e"
-               ],
-               "photo_reference" : "CoQBcwAAAPoJzHC0-niMFMoad22ocwHSsLAjy5Pg-08Q-eY8sUc8EOxhULB9bTn99vEqlI5in9HRMKkhJ5VgFKIFRQshmyX4E1cRwHwkcqJll6HTfAcHDLpChilnPp2okm1UBn25GhvmclMJS8ENzx3NXsYjEJn728ielmr3rbnhidClUSA_EhD_y9TMRKfFnMheBcyBFjqIGhQAJoHFbZVq1wNlU5-L93kn61KBdg",
-               "width" : 2672
-            }
-         ],
+         "name" : "Braums",
          "place_id" : "ChIJDZdnDPbVTYYRIwv37Pu4XWQ",
-         "price_level" : 1,
-         "rating" : 4.1,
-         "reference" : "CoQBeAAAAI2rVQFMyaAC5nQWhJs5Zw5xdzHUck55tryeNyledD_0YHmK8RxCjPAR87qu0xqW97I7H_imgkh9pHl0H2u0p9AtjhWVyRRUyvA6KSFP48txmZZFj1Y2lPMF6YRqW3aI7Tn020meqVSGhf9xi6HAES3LLdhGj2y8T6gDTIeL5GtCEhA-JuRmcuF7IUMjKyUG8CJBGhTyEd-UUN-yvfUYAqFSGz370bVGcQ",
-         "scope" : "GOOGLE",
-         "types" : [
-            "grocery_or_supermarket",
-            "restaurant",
-            "food",
-            "store",
-            "point_of_interest",
-            "establishment"
-         ],
-         "vicinity" : "4500 Colleyville Boulevard, Colleyville"
-      },
-      {
-         "geometry" : {
-            "location" : {
-               "lat" : 33.013295,
-               "lng" : -97.072639
-            },
-            "viewport" : {
-               "northeast" : {
-                  "lat" : 33.01407395000001,
-                  "lng" : -97.07231695
-               },
-               "southwest" : {
-                  "lat" : 33.01303535,
-                  "lng" : -97.07274635
-               }
-            }
-         },
-         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
-         "id" : "58425df763f597a8eb3ac9fc0979c72f4b94ec72",
-         "name" : "Culver's",
-         "opening_hours" : {
-            "open_now" : true,
-            "weekday_text" : []
-         },
-         "photos" : [
-            {
-               "height" : 3264,
-               "html_attributions" : [
-                  "\u003ca href=\"https://maps.google.com/maps/contrib/112302360689259370661/photos\"\u003eBlake Leslie\u003c/a\u003e"
-               ],
-               "photo_reference" : "CoQBcwAAADYqBc2ajtBqqTNxDLSe-SXVo1XNzZC53QRtISxEz_lASq7ybPKi7H7jAM6uxMt7u4wT1QYHSzTbAgl4M3LIW67PmgpdfdRjipNc-s2009MLzwcB780GrXD7oxkY441gAPke7C1qX3vylqip8pEEa0DuW6GUNJE3uGf4igufaKlfEhCNjkBfcs0_2ljAxNIs53-0GhQVKx2oGH68SW4WwUnnYP7XY3sVJA",
-               "width" : 1836
-            }
-         ],
-         "place_id" : "ChIJkza29N8sTIYRbPbaInLILG4",
-         "price_level" : 1,
-         "rating" : 4.2,
-         "reference" : "CmRbAAAAJovQIoA4qh4rQePNruZ2cNTc1P2GrNSUQEDbQhgJB5O5XbGIOvzupiJzouCpUjI8pM62GppRpZdTczCsHbzq5zebjsDp0aXtW-E_G_GZREVwb2iRNjhOaOCj96xRA4OiEhAtuTfMaXROfOBlaVU_vmJYGhQZnk84q4RhSZKoomN-0AacOn1nyQ",
-         "scope" : "GOOGLE",
-         "types" : [ "restaurant", "food", "store", "point_of_interest", "establishment" ],
-         "vicinity" : "2709 Flower Mound Road, Flower Mound"
+         "yelp_id" : "braums-colleyville"
       },
       {
          "geometry" : {
             "location" : {
                "lat" : 32.8535563,
                "lng" : -97.1880561
-            },
-            "viewport" : {
-               "northeast" : {
-                  "lat" : 32.85404875,
-                  "lng" : -97.18787094999999
-               },
-               "southwest" : {
-                  "lat" : 32.85339215,
-                  "lng" : -97.18861155
-               }
             }
          },
          "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
          "id" : "7ca33a74720eac9ce3785d20dd2c03314b132452",
          "name" : "Sub Zero Ice Cream & Yogurt",
-         "opening_hours" : {
-            "open_now" : false,
-            "weekday_text" : []
-         },
-         "photos" : [
-            {
-               "height" : 2340,
-               "html_attributions" : [
-                  "\u003ca href=\"https://maps.google.com/maps/contrib/103608215858495672845/photos\"\u003eBill Bisch\u003c/a\u003e"
-               ],
-               "photo_reference" : "CoQBdwAAAHl_Wn2VEQQCQSURmVmFDOiDUED_sZbO-OsB3209-h2-FsVNboay36d5C2etRv-veT3eonoUJcct1KN9JPCtvxFdynHxo6UHfiFaIVO_hLcQk_gmtyC_dd-pO07gm_f9VvEiCHRh8YGXtcQV5TUik3o0FiVyReEt8iMssKw4khcyEhCRMv1uwVc9oYeDZX1VoLkFGhQM7VlPW4HhUnPeYQbl-Ohcbb4yYg",
-               "width" : 4160
-            }
-         ],
          "place_id" : "ChIJyWjEEbd4ToYRFq2Muxgnclc",
-         "rating" : 4.4,
-         "reference" : "CnRuAAAAeUlNoNbOVMnDOyvr2d6N2nZH9UIejmnHqXFS4ii4s1lWzjBKFnGt3ZURiKhJSzeiqnjsb4Q31-6OiLHNIdpRTxqcMwYsx9C52KDNuAbSlWaASl-nhsCQuA8X9yA50PcXijeln9v7EXN2uLjX8gnF-RIQ-Ka1pteP0uPt4Kz9H2R52RoUYg8lZIGBs_iv9cukgqNYVaEJBis",
-         "scope" : "GOOGLE",
-         "types" : [ "food", "store", "point_of_interest", "establishment" ],
-         "vicinity" : "9986 Grapevine Highway, Hurst"
+         "yelp_id" : "sub-zero-ice-cream-hurst"
       },
       {
          "geometry" : {
             "location" : {
-               "lat" : 32.8779802,
-               "lng" : -97.09784999999999
-            },
-            "viewport" : {
-               "northeast" : {
-                  "lat" : 32.87798144999999,
-                  "lng" : -97.09774445000001
-               },
-               "southwest" : {
-                  "lat" : 32.87797645,
-                  "lng" : -97.09816665
-               }
+               "lat" : 32.89414199999999,
+               "lng" : -97.2644765
             }
          },
          "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
-         "id" : "797720c0379e04641c2eeb050020d54b7d05bf15",
-         "name" : "Baskin Robbins",
-         "opening_hours" : {
-            "open_now" : true,
-            "weekday_text" : []
-         },
-         "photos" : [
-            {
-               "height" : 717,
-               "html_attributions" : [
-                  "\u003ca href=\"https://maps.google.com/maps/contrib/101770213792919535397/photos\"\u003easad M\u003c/a\u003e"
-               ],
-               "photo_reference" : "CoQBcwAAAPe-fBfC6uolpBe2cWVvjBmWNzU3l-kVCf6rNERHzcWBGjafpGD50dhtyawrAvsyVG49-wtGTvx5bcsJC9T15FhhqkyGINH4LdZvKrxBbtmIzMpHiKf2W_jrsaeoELS-3Th0zIfP3jSU1n6ojEhLQwLuRNcAiVHkTMtE1-2I9akuEhBJzzm8mkcitabU90EKBjqMGhQLl4riJwH04uG88heY42ZunHZFfg",
-               "width" : 1277
-            }
-         ],
-         "place_id" : "ChIJ_Q02vfh_ToYRk1UMgvYoG28",
-         "price_level" : 2,
-         "rating" : 3.9,
-         "reference" : "CnRhAAAAIUfH3u7L1An7USuHvwiSf1-EqehTMW6zz24i4sLnhxUll30U4U1R_CgWuhpQ1PT6Kz9kNlqB5EB2Evhw6lQ_e_UQPGCp0zF82MlcNk_8X1NlnzK9JhGMg0gelAtjHLhpF2eg2JZjtnNYMzBc4tphDhIQEHbSqj2MYsDNgoO0TV1GfBoUBo2JnyNRnDK8HRHXn1TlzCPsJes",
-         "scope" : "GOOGLE",
-         "types" : [ "food", "store", "point_of_interest", "establishment" ],
-         "vicinity" : "2750 State Highway121, Suite 800, Euless"
+         "id" : "3d2646d328be9df0e869013471744c5b3907ea23",
+         "name" : "Bahama Bucks",
+         "place_id" : "ChIJT2ZwoCDYTYYRmHW3umEWpi4",
+         "yelp_id" : ""
       },
       {
          "geometry" : {
@@ -653,75 +205,8 @@
          "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
          "id" : "1822cefc17cc4b7e2ad2e4254862322f9b98adf7",
          "name" : "Paciugo",
-         "opening_hours" : {
-            "open_now" : true,
-            "weekday_text" : []
-         },
          "place_id" : "ChIJFYwx7YYrTIYRvxmRPycKTLc",
-         "reference" : "CmRbAAAAvSk8LcnQNfcvw2ppVlIKUvkKC5xcrYCV7chfTDDBhTXwkzK0n7ifF-LHx2320LhuAfpDX-hSpCRlaVf3GJK83mb4jAQZ_HkvsT5D2wrVj-OlEY0K1cGxr-nCULZqtY-hEhC0FbQB5CnxOKhLhuo6uC2EGhQQBLejGJje99QrhnFnVvmX98GVnQ",
-         "scope" : "GOOGLE",
-         "types" : [ "food", "store", "point_of_interest", "establishment" ],
-         "vicinity" : "3000 Grapevine Mills Parkway, Grapevine"
-      },
-      {
-         "geometry" : {
-            "location" : {
-               "lat" : 32.9661608,
-               "lng" : -97.042503
-            }
-         },
-         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
-         "id" : "7af48219cb5dd760cfcaae2e722e5f8d27e6fb95",
-         "name" : "Dippin' Dots",
-         "opening_hours" : {
-            "open_now" : true,
-            "weekday_text" : []
-         },
-         "place_id" : "ChIJFYwx7YYrTIYRO_1OD8RhGxo",
-         "price_level" : 2,
-         "reference" : "CmRfAAAAJEqX9dXml2Mq90OAB7-p4VCQbAQBCCjnsNQEeLlz-lJQOVx_QedjXJhFMW-dMRmD12uTe1QehZkP_htgEk0zPyBDDusDpeKsUo146sCvY_bVz8zyuwLPaHdYruaPcojWEhBJIokas6sXmyhGOuRenf2CGhT_NOUdy6mdKGZLpjnopJn5kNJCXw",
-         "scope" : "GOOGLE",
-         "types" : [ "food", "store", "point_of_interest", "establishment" ],
-         "vicinity" : "3000 Grapevine Mills Parkway, Grapevine"
-      },
-      {
-         "geometry" : {
-            "location" : {
-               "lat" : 32.8886982,
-               "lng" : -97.2582443
-            },
-            "viewport" : {
-               "northeast" : {
-                  "lat" : 32.88934154999999,
-                  "lng" : -97.25755945
-               },
-               "southwest" : {
-                  "lat" : 32.88848375000001,
-                  "lng" : -97.26029885000001
-               }
-            }
-         },
-         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
-         "id" : "56b3283dd763be1afdc0e4785e808fb5e42304b8",
-         "name" : "Marble Slab Creamery",
-         "photos" : [
-            {
-               "height" : 554,
-               "html_attributions" : [
-                  "\u003ca href=\"https://maps.google.com/maps/contrib/115334397383463421295/photos\"\u003eMarble Slab Creamery\u003c/a\u003e"
-               ],
-               "photo_reference" : "CoQBcwAAAJxnMGXbOPDqrEQxCDCZOqEB5TyAEGNGuGxJGxU5AnBx4_eJ817VX4LXLlgLrA72grZEP8MVdxxNRLH6j9Ou0_uijpDvkLUyRY8SHv8U_u5oXjnacMs_tvlsmUZK88oJcE19H9r86-Yqw5IWEjHJ0U1TleuadZ1Cj2oaBoH5JIHpEhC7toxvF2gbb_rGfZHq1FNyGhTvQdeqQqA_RedMEiZuIMCyw0gELA",
-               "width" : 554
-            }
-         ],
-         "place_id" : "ChIJM0EUE_PXTYYRoeKmDFIzr3A",
-         "price_level" : 1,
-         "rating" : 3.7,
-         "reference" : "CnRnAAAAQfd99irGPVlG4--SzN6pb8YocNVGLFBPEk-It8daYh2ZTfWEw3d9eqKMYKJqExQU0XUFtjXbRoZtIS_jsSkX3xiTgSOugUSecoRLbX5xPPJZNj6VwcVeb4HVz1ZEelMOofXDenY5lv5_pZ14B0VXhxIQh5k2OcsnSMd8gZ2_IVUKTxoU5-n8jdUzTQL0y_CDY8pSkwZLCfM",
-         "scope" : "GOOGLE",
-         "types" : [ "food", "store", "point_of_interest", "establishment" ],
-         "vicinity" : "8004 Denton Highway, Watauga"
+         "yelp_id" : "paciugo-gelato-grapevine"
       }
-   ],
-   "status" : "OK"
+  ]
 }
