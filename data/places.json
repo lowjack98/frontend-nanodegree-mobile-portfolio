@@ -102,20 +102,7 @@
          "id" : "8f0cba234442845acee7bf44d3949aaa866ac445",
          "name" : "Yogurtville",
          "place_id" : "ChIJETuEzXrWTYYRqUPnFJzzSAE",
-         "yelp_id" : ""
-      },
-      {
-         "geometry" : {
-            "location" : {
-               "lat" : 33.0744424,
-               "lng" : -97.1294996
-            }
-         },
-         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
-         "id" : "c0a9b6973969687863d0a63c1b2532bbd55abbcc",
-         "name" : "Marble Slab Creamery",
-         "place_id" : "ChIJRb25nnPNTYYRazbBaAhAkZQ",
-         "yelp_id" : ""
+         "yelp_id" : "yogurtville-north-richland-hills"
       },
       {
          "geometry" : {
@@ -181,19 +168,6 @@
          "name" : "Sub Zero Ice Cream & Yogurt",
          "place_id" : "ChIJyWjEEbd4ToYRFq2Muxgnclc",
          "yelp_id" : "sub-zero-ice-cream-hurst"
-      },
-      {
-         "geometry" : {
-            "location" : {
-               "lat" : 32.89414199999999,
-               "lng" : -97.2644765
-            }
-         },
-         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
-         "id" : "3d2646d328be9df0e869013471744c5b3907ea23",
-         "name" : "Bahama Bucks",
-         "place_id" : "ChIJT2ZwoCDYTYYRmHW3umEWpi4",
-         "yelp_id" : ""
       },
       {
          "geometry" : {
